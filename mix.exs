@@ -36,7 +36,8 @@ defmodule FintexPhoenix.Mixfile do
      {:phoenix_html, "~> 2.4"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.9"},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+     {:fintex, github: "my-flow/fintex", ref: "ed92b8d052e6bb2a05009d17845b08e8efbaf447"}]
   end
 
   # Aliases are shortcut or tasks specific to the current project.
