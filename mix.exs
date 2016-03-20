@@ -19,7 +19,7 @@ defmodule FintexPhoenix.Mixfile do
   def application do
     [mod: {FintexPhoenix, []},
      applications: [:phoenix, :phoenix_html, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex]]
+                    :phoenix_ecto, :postgrex, :fintex]]
   end
 
   # Specifies which paths to compile per environment.
